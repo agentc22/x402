@@ -31,6 +31,7 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.x402.org"),
   title: "x402 - Payment Required | Internet-Native Payments Standard",
   description:
     "x402 is the internet's payment standard. An open standard for internet-native payments that empowers agentic payments at scale. Build a more free and fair internet.",
@@ -38,6 +39,7 @@ export const metadata: Metadata = {
     title: "x402 - Payment Required",
     description: "x402 is the internet's payment standard for agentic payments at scale.",
     type: "website",
+    url: "/",
   },
 };
 

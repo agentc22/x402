@@ -10,6 +10,9 @@ export const metadata = {
   title: "Ecosystem | x402",
   description:
     "Discover innovative projects, tools, and applications built by our growing community of partners and developers leveraging x402 technology.",
+  alternates: {
+    canonical: "/ecosystem",
+  },
 };
 
 export const revalidate = 3600;

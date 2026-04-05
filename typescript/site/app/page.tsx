@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import type { Metadata } from "next";
 import { NavBar } from "./components/NavBar";
 import { Footer } from "./components/Footer";
 import {
@@ -85,6 +86,12 @@ const x402Steps = [
     description: "No API key management and related security risks",
   },
 ];
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+};
 
 const heroCodeSnippet = {
   code: `app.use(
